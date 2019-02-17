@@ -1,11 +1,90 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-body,html{width:100%;height:100%;padding:0;margin:0}
-body{display:-webkit-flex;-webkit-align-items:center;-webkit-justify-content:space-around;background:url('https://images.unsplash.com/photo-1541376220621-8a3ff17fb218?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');background-size:cover;background-position:center;font-family: 'Montserrat', sans-serif;}
-span{font-size:5vw;color:#fff;margin:0 1vw;padding:2.1vw 2.1vw;display:inline-block;width:8vw;border-radius:10px;text-align:center;background:rgba(0,0,0,0.75);box-shadow:inset 0 -5px 0 rgba(0,0,0,0.5)}
-span:after{font-size:1.5vw;display:block;margin:3px 0 -1px;opacity:.8}
-span:nth-of-type(1):after{content:"days"}  span:nth-of-type(2):after{content:"hrs"}
-span:nth-of-type(3):after{content:"min"}   span:nth-of-type(4):after{content:"sec"}
-div{position:relative}
+
+body,html{
+  width:100%;
+  height:100%;
+  padding:0;
+  margin:0
+}
+
+body{
+  display:-webkit-flex;
+  -webkit-align-items:center;
+  -webkit-justify-content:space-around;
+  background:url('https://images.unsplash.com/photo-1541376220621-8a3ff17fb218?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size:cover;
+  background-position:center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+span{
+  font-size:5vw;
+  color:#fff;
+  margin:0 1vw;
+  padding:2.1vw 2.1vw;
+  display:inline-block;
+  width:8vw;border-radius:10px;
+  text-align:center;
+  background:rgba(0,0,0,0.75);
+  box-shadow:inset 0 -5px 0 rgba(0,0,0,0.5)
+}
+
+span:after{
+  font-size:1.5vw;display:block;
+  margin:3px 0 -1px;opacity:.8
+}
+
+span:nth-of-type(1):after{
+  content:"Días"
+}
+
+span:nth-of-type(2):after{
+  content:"Hrs"
+}
+
+span:nth-of-type(3):after{
+  content:"Min"
+}
+
+span:nth-of-type(4):after{
+  content:"Seg"
+}
+
+/*.bottom-container{
+
+}
+
+span.bottom-right{
+  font-size:1vw;
+  color:white;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  width:8vw;
+  border-radius:10px;
+  text-align:center;
+  content:"";
+  background:rgb(255,255,255);
+  box-shadow:inset 0 -5px 0 rgba(0,0,0,0.5)
+}
+
+span.bottom-left{
+  font-size:1vw;
+  color:white;
+  margin:0;
+  padding:0;
+  display:inline-block;
+  width:8vw;
+  border-radius:10px;
+  text-align:center;
+  content:"";
+  background:rgb(255,255,255);
+  box-shadow:inset 0 -5px 0 rgba(0,0,0,0.5)
+}*/
+
+div{
+  position:relative
+}
 
 div:before{
   content:"Texas-GDL countdown";
@@ -22,7 +101,7 @@ div:before{
 div:after{
   /*
   content:"Let me borrow a kiss... I prommise I'll give it back! \01F60F	";*/
-  content:"Memo + Michelle + GDL + \01F92B  magic plants \01F92B";
+  content:"Memo + Michelle + \01F92B  magic plants \01F92B";
   position:absolute;
   text-align:center;
   width:100%;
@@ -32,4 +111,8 @@ div:after{
   bottom:-4vw;
 }
 
-h2{width:80vw;font-size:6vw;text-align:center}
+h2{
+  width:80vw;
+  font-size:6vw;
+  text-align:center
+}
